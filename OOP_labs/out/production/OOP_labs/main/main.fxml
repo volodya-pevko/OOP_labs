@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="main.MainWindowController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="mainListView" layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button onAction="#addBtnOnClick" layoutX="619.0" layoutY="65.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Добавить объект" />
+      <Button onAction="#removeBtnOnClick" layoutX="619.0" layoutY="113.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Удалить объект" />
+      <Button onAction="#editBtnOnClick" layoutX="619.0" layoutY="169.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Редактировать" />
+      <ComboBox fx:id="addComboBox" layoutX="619.0" layoutY="14.0" prefHeight="31.0" prefWidth="168.0" />
+   </children>
+</AnchorPane>
